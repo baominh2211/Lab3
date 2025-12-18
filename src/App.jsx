@@ -4,6 +4,7 @@ import Login from './Login';
 import Card from './Card';
 import Accordion from './Accordion';
 import TodoApp from './TodoApp';
+import SnowEffect from './SnowEffect';
 
 function App() {
   // Exercise 3 & 4: User data for UserProfile components
@@ -23,9 +24,13 @@ function App() {
 
   return (
     <div className="App">
-      <h1>🚀 React Basics Exercise - Lab 3</h1>
-      <p style={{ color: '#999', marginBottom: '2rem' }}>
+      <SnowEffect />
+      <h1>🎄 React Basics Exercise - Lab 3 ☃️</h1>
+      <p style={{ color: 'rgba(173, 216, 230, 0.9)', marginBottom: '2rem', fontSize: '1.1rem' }}>
         Complete React exercises with Vite - MSc. Tran Vinh Khiem
+      </p>
+      <p style={{ color: 'rgba(255, 200, 200, 0.8)', marginBottom: '2rem', fontSize: '0.95rem' }}>
+        ❄️ Merry Christmas & Happy Coding! 🎅
       </p>
 
       {/* Part II: Exercise 3 & 4 - UserProfile with Props */}
@@ -71,9 +76,20 @@ function App() {
         <TodoApp />
       </section>
 
-      <footer style={{ marginTop: '3rem', padding: '2rem', color: '#999', fontSize: '0.9rem' }}>
-        <p>Built with React + Vite</p>
-        <p>Lab 3: Introduction to React - All Exercises Completed ✅</p>
+      <footer style={{ 
+        marginTop: '3rem', 
+        padding: '2rem', 
+        color: 'rgba(173, 216, 230, 0.8)', 
+        fontSize: '0.9rem',
+        background: 'rgba(255, 255, 255, 0.05)',
+        borderRadius: '15px',
+        backdropFilter: 'blur(5px)'
+      }}>
+        <p style={{ marginBottom: '0.5rem' }}>🎄 Built with React + Vite 🎄</p>
+        <p style={{ marginBottom: '0.5rem' }}>Lab 3: Introduction to React - All Exercises Completed ✅</p>
+        <p style={{ color: 'rgba(255, 200, 200, 0.7)' }}>
+          ❄️ Happy Holidays! ☃️ Merry Christmas! 🎅
+        </p>
       </footer>
     </div>
   );
