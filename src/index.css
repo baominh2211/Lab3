@@ -122,18 +122,6 @@ body::before {
   animation: decorationFloat 4s ease-in-out infinite;
   text-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
 }
-  content: '⛄ 🎄 ⛄ 🎄 ⛄ 🎄 ⛄ 🎄';
-  position: fixed;
-  bottom: 20px;
-  left: 0;
-  width: 100%;
-  text-align: center;
-  font-size: 30px;
-  pointer-events: none;
-  z-index: 1;
-  opacity: 0.6;
-  animation: decorationFloat 3s ease-in-out infinite;
-}
 
 @keyframes snowfall {
   0% {
